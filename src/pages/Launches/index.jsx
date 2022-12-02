@@ -31,7 +31,7 @@ const Launches = () => {
     setFavourites(newFavouriteLaunches)
   }
 
-  const handleOnChange = (e) => setSearch(e.target.value)
+  const handleOnChange = (e) => setSearch(e.target.value.toLowerCase())
 
   const getLaunchesOrFavourites = () => {
     if (allOrFavourite === 'all') return launches
