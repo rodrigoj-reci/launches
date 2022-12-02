@@ -1,0 +1,9 @@
+.launches {
+  padding: 10px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

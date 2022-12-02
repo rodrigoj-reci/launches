@@ -1,0 +1,26 @@
+@import 'styles/colors.scss';
+
+.sections {
+  position: relative;
+  margin: 40px 0px;
+  display: flex;
+
+  &__text {
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+  }
+
+  &__selected {
+    border-bottom: 3px solid $base-black;
+  }
+
+  &__line {
+    border-bottom: 1px solid $base-black;
+    position: absolute;
+    bottom: 17px;
+    width: 100%;
+  }
+}

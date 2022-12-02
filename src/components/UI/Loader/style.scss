@@ -1,0 +1,8 @@
+@import 'styles/colors.scss';
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 16px);
+  color: $base-grey;
+}

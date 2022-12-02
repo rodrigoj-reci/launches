@@ -1,0 +1,26 @@
+@import 'styles/colors.scss';
+
+.launchModal {
+  padding: 30px !important;
+
+  &__date {
+    font-size: 14px;
+    font-weight: 400;
+    color: $grey-font;
+    position: absolute;
+    top: 15px;
+  }
+
+  &__star {
+    cursor: pointer;
+    position: absolute;
+    top: 36px;
+    right: 30px;
+  }
+
+  &__bodyTitle {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
